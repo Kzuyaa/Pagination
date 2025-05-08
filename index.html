@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Ufc Fighter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="cards">
+            <div id="page1">
+                <section>
+                    <img src="/img/adesanya.avif" alt="">
+                    <h1>İsrael Adesanya</h1>
+                    <p>The Nigerian Ufc Fighter</p>
+                </section>
+                <section>
+                    <img src="/img/alex.avif" alt="">
+                    <h1>Alex Pereira</h1>
+                    <p>The Brazilian Ufc Fighter</p>
+                </section>
+                <section>
+                    <img src="/img/conor.webp" alt="">
+                    <h1>Conor McGregor</h1>
+                    <p>The Irish Ufc Fighter</p>
+                </section>
+            </div>
+            <div id="page2" style="display: none;">
+                <section>
+                    <img src="/img/dustin.webp" alt="">
+                    <h1>Dustin Poirier</h1>
+                    <p>The American Ufc Fighter</p>
+                </section>
+                <section>
+                    <img src="/img/max holloway.jpg" alt="">
+                    <h1>Max Holloway</h1>
+                    <p>The American Ufc Fighter</p>
+                </section>
+                <section>
+                    <img src="/img/fiziev.jpg" alt="">
+                    <h1>Rafael Fiziev</h1>
+                    <p>The Azerbaijani Ufc Fighter</p>
+                </section>
+            </div>
+            <div id="page3" style="display: none;">
+                <section>
+                    <img src="/img/khabib.webp" alt="">
+                    <h1>Khabib Nurmagomedov</h1>
+                    <p>The Russian Ufc Fighter</p>
+                </section>
+                <section>
+                    <img src="/img/islam.jpg" alt="">
+                    <h1>İslam Makhachev</h1>
+                    <p>The Russian Ufc Fighter</p>
+                </section>
+                <section>
+                    <img src="/img/jon-jones.webp" alt="">
+                    <h1>Jon Jones</h1>
+                    <p>The American Ufc Fighter</p>
+                </section>
+            </div>
+        </div>
+        <div  class="buttons">
+            <button id="prev" onclick="prevPage()">Before</button>
+            <button onclick="goToPage(0)">1</button>
+            <button onclick="goToPage(1)">2</button>
+            <button onclick="goToPage(2)">3</button>
+            <button id="next" onclick="nextPage()">Next</button>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
